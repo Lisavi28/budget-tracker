@@ -61,7 +61,7 @@ function uploadTransaction() {
         // clear all items in your store
         budgetObjectStore.clear();
 
-                alert('All saved transactions has been submitted!');
+                alert('Pending transactions have been submitted');
             })
             .catch(err => {
                 console.log(err);
